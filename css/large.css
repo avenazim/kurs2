@@ -1,0 +1,31 @@
+#portfolio .carousel-item {
+  position: relative;
+  height: 600px;
+}
+
+#portfolio .carousel-item img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#portfolio .carousel-item .carousel-indicated {
+  padding-bottom: 20px;
+}
+
+#portfolio .carousel-item .carousel-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 40px 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media (min-width: 1200px) {
+  .aboutus-hero .jumbotron {
+    padding: 120px 0;
+  }
+}
+/*# sourceMappingURL=large.css.map */
